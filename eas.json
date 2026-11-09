@@ -1,14 +1,9 @@
-{
+
   "cli": {
-    "version": ">= 10.0.0"
+    "version": ">= 5.0.0"
   },
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
-    },
     "preview": {
-      "distribution": "internal",
       "android": {
         "buildType": "apk"
       }
@@ -17,6 +12,11 @@
       "android": {
         "buildType": "apk"
       }
+    }
+  },
+  "hooks": {
+    "build": {
+      "preInstall": "yarn config set npm-expand-twiddle false && yarn install --no-frozen-lockfile"
     }
   }
 }
