@@ -1,0 +1,17 @@
+{
+  "name": "ISLAMIC BESSAFI",
+  "short_name": "ISLAMIC BESSAFI",
+  "description": "A refined Islamic social community: share halal content, follow the Ummah, pray on time and listen to the Quran.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0095f6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

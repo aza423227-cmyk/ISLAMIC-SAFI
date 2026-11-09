@@ -1,0 +1,1 @@
+ALTER TABLE "user_settings" ALTER COLUMN "prayer_method" SET DEFAULT '3';
